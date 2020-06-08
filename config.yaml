@@ -1,0 +1,21 @@
+
+data: "data"
+pages: "pages"
+
+report:
+  screenshots: true
+  clean: true
+  params:
+    output: "report"
+    combine_reports: true
+    report_name: "TestReport"
+    report_title: "Sample Report"
+
+tags: []
+
+drivers:
+  chrome:
+    remote: false
+
+  firefox:
+    remote: false

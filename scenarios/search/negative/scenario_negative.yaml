@@ -1,0 +1,12 @@
+name: "search_negative"
+tags: ["*"]
+before_each:
+  - run_driver: "chrome"
+steps:
+  - page_object:
+      class: "GoogleSearchPageInvalid"
+      method: "search_positive"
+      params:
+        search_text: ""
+after_each:
+  - close_driver:
