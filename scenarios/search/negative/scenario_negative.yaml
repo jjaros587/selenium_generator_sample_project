@@ -1,5 +1,5 @@
 name: "search_negative"
-tags: ["*"]
+tags: []
 before_each:
   - run_driver: "chrome"
 steps:

@@ -1,5 +1,5 @@
-name: "invalid scenario"
-tags: ["*"]
+name: "invalid_scenario"
+tags: []
 before_each:
   - run_driver: "chrome"
 steps:
