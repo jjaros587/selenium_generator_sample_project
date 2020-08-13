@@ -1,4 +1,4 @@
-
+scenarios: "scenarios"
 data: "data"
 pages: "pages"
 
@@ -7,7 +7,6 @@ report:
   clean: true
   params:
     output: "report"
-    combine_reports: true
     report_name: "TestReport"
     report_title: "Sample Report"
 
@@ -18,4 +17,5 @@ drivers:
     remote: false
 
   firefox:
+    allowed: false
     remote: false

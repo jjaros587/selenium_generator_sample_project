@@ -1,8 +1,8 @@
-name: "search_positive_inline_data"
+name: "search_skipped"
 data:
   - search_text: "text1"
   - search_text: "text2"
-tags: ["*"]
+tags: []
 skip:
 before_all:
 before_each:
