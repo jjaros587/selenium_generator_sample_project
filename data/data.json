@@ -1,8 +1,10 @@
 [
   {
-    "search_text": "search"
+    "username": "admin",
+    "password": "admin"
   },
   {
-    "search_text": "blabla"
+    "username": "user",
+    "password": "user"
   }
 ]
