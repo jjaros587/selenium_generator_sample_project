@@ -1,4 +1,5 @@
-name: "scenario_negative"
+name: "scenario_params_data"
+drivers: []
 tags: []
 before_each:
   - run_driver:
@@ -6,9 +7,9 @@ before_each:
 steps:
   - page_object:
       class: "LoginPage"
-      method: "login_negative"
+      method: "login_positive"
       params:
-        username: "incorrect_username"
-        password: "incorrect_password"
+        username: "admin"
+        password: "admin"
 after_each:
   - close_driver:

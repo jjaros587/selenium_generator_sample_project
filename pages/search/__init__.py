@@ -1,1 +1,1 @@
-from . import GoogleSearchPage, GoogleSearchPageInvalid
+from . import LoginPage

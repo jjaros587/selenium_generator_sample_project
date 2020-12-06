@@ -1,11 +1,7 @@
-name: "scenario_inline_data"
+name: "scenario_external_data"
 drivers: []
-tags: []
-data:
-  -   username: "admin"
-      password: "admin"
-  -   username: "user"
-      password: "user"
+tags: ["a"]
+data: "data.json"
 before_each:
   - run_driver:
   - maximize:

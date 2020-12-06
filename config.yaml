@@ -17,5 +17,5 @@ drivers:
     remote: false
 
   firefox:
-    allowed: false
     remote: false
+    allowed: false
